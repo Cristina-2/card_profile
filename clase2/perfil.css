@@ -48,13 +48,13 @@
         margin : 40px;
         padding: 30px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 1));
-        text-align: center;
-
+        text-align:center;
+        
         /*Animacion de aparicion */
-    transform : translateY(20px);
-    animation: fadeIn 1s ease-in-out forwards;
+    transform :translateY(20px);
+    animation:fadeIn 1s ease-in-out forwards;
     /*Efecto hover*/
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition:transform 0.3s, box-shadow 0.3s;
     }
     .profile-card::hover{
         transform: translateY(-10px);
